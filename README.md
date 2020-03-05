@@ -28,9 +28,10 @@ This will reflect any changes made to the application.
 Your application should now be running at [http://localhost:8080](http://localhost:8080).
 
 For initiating request: Please enter following URL on your Client
+```bash
 GET http://localhost:8080/pyramidWord/<input_word> 
-
-eg: http://localhost:8080/pyramidWord/banana 
+```
+eg: http://localhost:8080/pyramidWord/banana <br>
     http://localhost:8080/pyramidWord/bandana
 
 This will return a json response stating the status of pyramid word with a message. 
